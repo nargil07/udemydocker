@@ -5,6 +5,6 @@ RUN cd app && npm install
 COPY . /app/
 WORKDIR /app
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npm", "start"]
